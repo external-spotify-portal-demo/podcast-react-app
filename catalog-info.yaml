@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: podcast-react-app
+  annotations:
+    github.com/project-slug: 'external-spotify-portal-demo/podcast-react-app'
+spec:
+  type: website
+  lifecycle: production
+  owner: kubecon-squad
